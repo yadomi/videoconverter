@@ -1,0 +1,11 @@
+{
+  "name": "videoconverter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "mime": "^2.2.0",
+    "watchr": "^4.0.1"
+  }
+}
