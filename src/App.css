@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(to right bottom, #180537, #3d1364, #6a1c93, #a01ec0, #dc12eb);
+  color: white;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+h1 {
+  cursor: pointer;
+  font-size: 3em;
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+  padding: 70px 0;
+  transition: transform .25s ease-in-out;
+}
+h1:hover {
+  transform: scale(1.5) rotate(3deg);
+}
+
+.Video {
+  height: 270px;
+  width: 480px;
+  margin: 0 auto 25px;
+}
+
+.Container {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Container[data-is-single="true"] > div {
+  width: 100%;
+}
+
+.Container[data-is-single="true"] .Video {
+  height: auto;
+  width: 1000px;
+}
+
+.Container input {
+  background: transparent;
+  border: none;
+  font-size: 1.2em;
+  width: 100%;
+  color: white;
+  outline: none;
+}
